@@ -1,0 +1,138 @@
+body
+{
+    
+}
+
+header
+{
+   background-color: rgba(240, 213, 63, 0.795);
+}
+
+nav
+{
+    position: absolute;/*tirar o menu do header e transformar ele em totalmente livre*/
+    top: 110px;
+    right: 0;
+    
+    
+}
+
+nav li
+{
+    display: inline;/*deixa tudo alinhado um naf frente do outro*/
+    margin:0 0 0 15px;
+}
+
+nav a
+{
+    
+    text-transform: uppercase;/*deixar em letra maiscula*/
+    color: black;
+    font-weight: bold;/*negrito*/
+    font-size: 22px;
+    text-decoration: none;/*tira o tracin do link*/
+}
+
+nav a:hover
+{
+    color:  blanchedalmond;
+    font-size: 28px;
+}
+
+#banner
+{
+    width: 100%;
+}
+
+.principal
+{
+    background: url(bg.jpg);
+    padding: 55px;
+}
+
+.titlex
+{
+    
+    font-size: 20px;
+    color: rgba(240, 213, 63, 0.795);
+    text-align: center;
+}
+
+p
+{
+    color: rgba(240, 213, 63, 0.795);
+    text-align: center;
+}
+
+#missao
+{
+    
+    color: white;
+    font-size: 20px;
+}
+
+em strong
+{
+    color:white;
+}
+
+.itens
+{
+    font-style: italic;
+}
+
+
+.beneficios
+{
+    background: url(bg.jpg);
+    padding: 40px;
+}
+
+h3
+{
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+}
+
+.benef
+{
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-top: 5.8%;
+    margin-left: 17.6%;
+    margin-right: 4.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#barba
+{
+    
+    width: 40%;
+   
+}
+
+footer
+{
+    text-align: center;
+    background: url(bg.jpg);
+    padding:40px 0;
+
+}
+
+.copy
+{
+    color:white;
+    font-size:13px;
+    margin-top:20px;
+    
+}
