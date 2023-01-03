@@ -1,138 +1,290 @@
 body
 {
-    
+	font-family: 'Montserrat', sans-serif;
+
 }
 
-header
-{
-   background-color: rgba(240, 213, 63, 0.795);
+
+
+header {
+    background-color: rgba(240, 213, 63, 0.795);
+	padding: 20px 0;
 }
 
-nav
-{
-    position: absolute;/*tirar o menu do header e transformar ele em totalmente livre*/
-    top: 110px;
-    right: 0;
-    
-    
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-nav li
-{
-    display: inline;/*deixa tudo alinhado um naf frente do outro*/
-    margin:0 0 0 15px;
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
 
-nav a
-{
-    
-    text-transform: uppercase;/*deixar em letra maiscula*/
-    color: black;
-    font-weight: bold;/*negrito*/
-    font-size: 22px;
-    text-decoration: none;/*tira o tracin do link*/
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-nav a:hover
-{
-    color:  blanchedalmond;
-    font-size: 28px;
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
-#banner
-{
-    width: 100%;
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
 }
 
-.principal
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descricao {
+	font-size: 18px;
+}
+
+.preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar
 {
-    background: url(bg.jpg);
-    padding: 55px;
+	width: 40%;
+	padding: 15px 15px 0;
+	background-color: #C78C19;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition:1s all;
+}
+.enviar:hover
+{
+	background: #9b6906;
+	transform: scale(1.2);
+}
+
+table
+{
+	margin: 20 px o 40px;
+}
+
+thead
+{
+	background-color: #C78C19;
+	color: #000000;
+	font-weight: bold;
+}
+td, th
+{
+	border: 1px solid black;
+	padding: 15px 8px 8px;
+}
+
+/*css da index*/
+.banner
+{
+	width: 100%;
+
 }
 
 .titlex
 {
-    
-    font-size: 20px;
-    color: rgba(240, 213, 63, 0.795);
-    text-align: center;
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em;	
+	clear: left;
 }
 
-p
+.principal
 {
-    color: rgba(240, 213, 63, 0.795);
-    text-align: center;
+	padding: 3em 0;
+	background: #FEFEFE;
+
 }
 
-#missao
+.principal p
 {
-    
-    color: white;
-    font-size: 20px;
+	margin: 0 0 1em;
 }
 
-em strong
+.principal strong
 {
-    color:white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.principal em
+{
+	font-style: italic;
+}
+
+.fotinh
+{
+	width: 180px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa
+{
+	padding: 3em 0;
+}
+.mapa p
+{
+	margin:  2em 0 2em;
+	text-align: center;
+}
+
+.beneficios
+{
+	width: 640px;
+	margin: 0 auto;
+	
+}
+.benef
+{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+    border: solid #000000;
+    border-radius: 10px;
+	box-shadow: -20px  15px black;
+	transition: 400ms;
+}
+
+.benef:hover
+{
+	box-shadow: -25px 0px 5px orange;
+
 }
 
 .itens
 {
-    font-style: italic;
+	line-height: 1.5;
 }
 
 
-.beneficios
+.barba
 {
-    background: url(bg.jpg);
-    padding: 40px;
+	width: 60%;
+	margin-left: 10%;
+	vertical-align: top;
+	box-shadow: 10px 10px 10px black;
+	opacity: 1;
+	transition:400ms;
 }
 
-h3
+.barba:hover
 {
-    color: blanchedalmond;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-style: bold;
-    text-align: center;
+	opacity: 0.3;
+	box-shadow: 20px 20px 20px orange;
 }
 
-.benef
+
+
+.video
 {
-    background-color: cornsilk;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin-top: 5.8%;
-    margin-left: 17.6%;
-    margin-right: 4.5%;
-    padding: 20px 10px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
+	width: 560px;
+	margin: 2em auto;
 }
 
-#barba
+@media screen and (max-width:480px) 
 {
-    
-    width: 40%;
-   
-}
+	.caixa,.principal, .mapa, .benef, .video, .banner, .footer
+	{
+		width: auto;
+	}
 
-footer
-{
-    text-align: center;
-    background: url(bg.jpg);
-    padding:40px 0;
+	h1
+	{
+		text-align: center;
+	}
 
-}
+	nav
+	{
+		position: static;
+		text-align: center;
+	}
 
-.copy
-{
-    color:white;
-    font-size:13px;
-    margin-top:20px;
-    
+	.benef, .barba
+	{
+		width: 100%;
+	}
 }
